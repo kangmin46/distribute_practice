@@ -1,4 +1,6 @@
+FROM ububtu:16.04
 FROM openjdk:8
+
 
 ENV JAR_NAME demo-0.0.1-SNAPSHOT.jar
 
