@@ -10,6 +10,7 @@ RUN cp ./build/libs/$JAR_NAME /usr/src/app
 
 WORKDIR /usr/src/app
 RUN rm -rf build
-CMD nohup java -jar $JAR_NAME &
 
 EXPOSE 8080
+
+CMD java -jar $JAR_NAME
