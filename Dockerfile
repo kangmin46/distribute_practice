@@ -4,7 +4,7 @@ ENV JAR_NAME demo-0.0.1-SNAPSHOT.jar
 
 COPY . /usr/src/app/build
 WORKDIR /usr/src/app/build
-RUN ./gradlew clean build
+RUN ./gradlew -parallel build
 
 RUN cp ./build/libs/$JAR_NAME /usr/src/app
 
