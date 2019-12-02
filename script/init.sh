@@ -1,5 +1,5 @@
-sudo su
-snap install docker --devmode
-git clone -b build https://github.com/kangmin46/dp.git
+
+sudo snap install docker --devmode
+sudo git clone -b build https://github.com/kangmin46/dp.git
 cd dp
-docker build -t Hello .
+sudo docker build -t Hello .
