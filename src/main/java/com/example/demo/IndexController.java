@@ -16,4 +16,9 @@ public class IndexController {
         return "index.html";
     }
 
+    @GetMapping("ass")
+    public String ass() {
+        return "ass.html";
+    }
+
 }
