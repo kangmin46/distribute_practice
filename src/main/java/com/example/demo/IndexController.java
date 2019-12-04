@@ -15,10 +15,4 @@ public class IndexController {
     public String index() {
         return "index.html";
     }
-
-    @GetMapping("ass")
-    public String ass() {
-        return "ass.html";
-    }
-
 }
