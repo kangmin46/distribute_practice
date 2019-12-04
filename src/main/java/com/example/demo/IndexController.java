@@ -9,9 +9,4 @@ public class IndexController {
     public String index() {
         return "index.html";
     }
-
-    @GetMapping("/abc")
-    public String abc() {
-        return "abc.html";
-    }
 }
